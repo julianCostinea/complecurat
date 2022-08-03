@@ -1,0 +1,38 @@
+.contact {
+    margin-top: 5rem;
+}
+
+.infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoContainer .infoDiv {
+    margin: 1rem auto;
+}
+
+.infoContainer .infoDiv svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.infoContainer .infoDiv svg path {
+    fill: var(--main-color);
+}
+
+.infoContainer .infoDiv:nth-of-type(3) svg path {
+    stroke: var(--main-color);
+    fill: transparent;
+}
+
+@media (min-width: 780px) {
+    .infoContainer {
+        flex-direction: row;
+    }
+
+    .infoContainer .infoDiv {
+        margin: 1rem 2rem;
+    }
+}

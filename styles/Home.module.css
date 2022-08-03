@@ -1,0 +1,150 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main>div {
+  padding: 5rem 2rem;
+}
+
+.homeIntro {
+  width: 100%;
+  position: relative;
+  background-image: url('/introPhoto.jpg');
+  opacity:90% ; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.aboutMe {
+  text-align: center;
+  opacity:1 ;
+}
+
+.aboutMe p {
+  font-weight: 600;
+}
+
+.aboutMe p span {
+  color: white;
+}
+
+.aboutMe img {
+  border-radius: 50%;
+}
+
+.photoCredit{
+  font-size: 10px;
+}
+
+.inverseNavbar {
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.inverseNavbar a {
+  color: #2D9DCA;
+}
+
+.inverseNavbar a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #2D9DCA;
+  transition: width ease-in-out 0.3s;
+}
+
+.inverseNavbar a:hover::after {
+  width: 100%;
+}
+
+.cvSectionContainer {
+  width: 100%;
+}
+
+.cvSectionContainer h1, .projects h1 {
+  color: var(--main-color);
+}
+
+.cvSection {
+  text-align: left;
+  display: flex;
+}
+
+.cvSection svg {
+  margin-right: 5px;
+}
+.cvSection svg path {
+  fill: #00ABE9;
+}
+
+.cvSection h3, .cvSection h4 {
+  margin: 10px 0;
+}
+
+.cvSection h4:first-of-type {
+  margin-top: 1rem;
+  margin-bottom: 7px;
+  color: var(--main-color);
+}
+
+.homeSocial {
+  margin: 14px auto;
+}
+
+.homeSocial a {
+  margin: 0px 3px;
+}
+
+.projects > h2{
+  text-decoration: underline;
+  text-decoration-color: var(--main-color);
+}
+
+.otherProjectsContainer {
+  margin-top: 3rem;
+}
+
+.highlightedProjectsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+}
+
+@media (min-width: 810px) {
+  .homeIntro {
+    flex-direction: row;
+  }
+
+  .rotatingSentence{
+    padding-right: 7rem;
+  }
+
+  .main>div {
+    padding: 2rem 8rem;
+  }
+
+  .aboutMe {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cvSectionContainer {
+    width: 80%;
+  }
+  .highlightedProjectsContainer{
+    flex-direction: row;
+  }
+}

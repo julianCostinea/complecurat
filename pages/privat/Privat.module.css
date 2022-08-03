@@ -1,0 +1,82 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Intro {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    padding-top: 5rem;
+}
+
+.Intro h1, .Intro h2 {
+    z-index: 500;
+    position: relative;
+    color: white;
+    max-width: fit-content;
+    margin: 1rem auto;
+    padding: 10px;
+    /* text-shadow: 2px 1px black; */
+
+}
+
+.Intro h1 {
+    background-color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.Intro h2 {
+    background-color: var(--secondary-color);
+    opacity: 0.9;
+}
+
+.Intro img {
+    z-index: 1;
+}
+.Details{
+    padding: 10px;
+}
+.Details p{
+    font-size: 1.1rem;
+}
+
+.Details h1 span {
+    color: white;
+    background-color: var(--main-color);
+    padding: 0px 5px;
+}
+
+.SatisfiedCustomers{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.SatisfiedCustomersData{
+    display: inline-block;
+    margin: 0 5rem;
+}
+
+.SatisfiedCustomersData h1:first-of-type{
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0;
+}
+.SatisfiedCustomersData h1:last-of-type{
+    margin-top: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+@media (min-width: 780px) {
+    .Intro h1 {
+        font-size: 3rem;
+    }
+    .Details{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}

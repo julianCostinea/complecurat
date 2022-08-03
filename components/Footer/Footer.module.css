@@ -1,0 +1,99 @@
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eaeaea;
+  display: grid;
+  background-color: #343C3E;
+  grid-template-areas:
+    " footerAbout "
+    " footerSocial ";
+  justify-items: flex-start;
+  align-items: flex-start;
+  color: white;
+}
+
+.footerMenu {
+  grid-area: footerMenu;
+  display: none;
+}
+
+.footerAbout {
+  grid-area: footerAbout;
+}
+
+.footerAbout p {
+  color: lightgray;
+}
+
+.ReadMoreButton {
+  background-color: #40484A;
+  ;
+  color: white;
+  border: 2px solid #40484A;
+  ;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 400ms ease-in, color 300ms ease-in;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footerMenu ul li {
+  margin-bottom: 10px;
+  margin-left: -10px;
+  display: flex;
+  align-items: center;
+}
+
+.footerSocial {
+  grid-area: footerSocial;
+  margin-top: 16px;
+}
+
+.footerSocial ul, .footerMenu ul {
+  margin-top: 5px;
+  padding: 0;
+  list-style: none;
+}
+
+.footerSocial ul li {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 6px;
+}
+
+.footerSocial ul li:last-of-type {
+  border-bottom: none;
+}
+
+.footerSocial ul li svg {
+  margin-right: 5px;
+}
+
+.footerSocial h4, .footerMenu h4, .footerAbout h4 {
+  margin: 0;
+}
+
+@media (min-width: 780px) {
+  .footer {
+    grid-template-areas: "footerMenu footerAbout footerSocial";
+    justify-content: space-evenly;
+  }
+  .footerMenu {
+    display: inline-block;
+  }
+  .footerSocial {
+    margin-top: 0px;
+  }
+
+  .footerAbout {
+    max-width: 270px;
+  }
+}
