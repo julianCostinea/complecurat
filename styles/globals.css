@@ -19,3 +19,33 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--main-color) !important;
+  display: none!important;
+}
+.swiper-wrapper {
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.swiper-slide {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block!important;
+  }
+  .swiper-slide {
+    padding: 0px 50px!important;
+  }
+}

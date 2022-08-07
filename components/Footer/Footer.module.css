@@ -81,6 +81,15 @@
   margin: 0;
 }
 
+@media (min-width: 550px) {
+  .footer{
+    justify-items: center;
+  }
+  .footerMenu, .footerAbout{
+    width: 80%;
+  }
+}
+
 @media (min-width: 780px) {
   .footer {
     grid-template-areas: "footerMenu footerAbout footerSocial";

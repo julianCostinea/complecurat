@@ -9,7 +9,8 @@ const NavigationItems = () => {
   const sideDrawerCtx = useContext(SideDrawerContext);
   return (
     <ul className={`${classes.NavigationItems}`}>
-      <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/">Privat</NavigationItem>
+      <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/">Acasa</NavigationItem>
+      <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/privat">Privat</NavigationItem>
       <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/firma">Firma</NavigationItem>
       <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/desprenoi">Despre noi</NavigationItem>
       <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/contact">Contact</NavigationItem>

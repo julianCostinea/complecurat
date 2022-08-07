@@ -10,14 +10,14 @@
   position: fixed;
   top: 3vh;
   left: 10vw;
-  z-index: 300;
+  z-index: 700;
 }
 
 .DrawerToggle input {
   cursor: pointer;
   opacity: 0;
   position: absolute;
-  z-index: 2;
+  z-index: 701;
   width: 40px;
   height: 32px;
 }
@@ -28,7 +28,7 @@
   height: 2px;
   margin-bottom: 5px;
   background-color: var(--secondary-color);
-  z-index: 1;
+  z-index: 700;
   transform-origin: 5px 0px;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;

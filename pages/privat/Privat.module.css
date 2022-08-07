@@ -30,7 +30,8 @@
 
 .Intro h2 {
     background-color: var(--secondary-color);
-    opacity: 0.9;
+    /* opacity: 0.9;
+    color: black; */
 }
 
 .Intro img {
@@ -38,6 +39,9 @@
 }
 .Details{
     padding: 10px;
+}
+.Details h1{
+    text-transform: uppercase;
 }
 .Details p{
     font-size: 1.1rem;
