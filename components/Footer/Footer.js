@@ -1,5 +1,13 @@
 import React from "react";
-import { MailIcon, ClockIcon, PhoneIcon, PinIcon, ArrowRightIcon } from "../UI/Icons/Icons";
+import {
+  MailIcon,
+  ClockIcon,
+  PhoneIcon,
+  PinIcon,
+  CaretRight,
+} from "../UI/Icons/Icons";
+import Link from "next/link";
+
 import classes from "./Footer.module.css";
 
 const Footer = () => (
@@ -7,19 +15,44 @@ const Footer = () => (
     <div className={classes.footerMenu}>
       <h4>MENIU</h4>
       <ul>
-        <li>{ArrowRightIcon}<a href="./">Privat</a></li>
-        <li>{ArrowRightIcon}<a href="/firma">Firma</a></li>
-        <li>{ArrowRightIcon}<a href="/desprenoi">Despre Noi</a></li>
-        <li>{ArrowRightIcon}<a href="/contact">Contact</a></li>
+        <li>
+          {CaretRight}
+          <Link href="/">
+            <a>Privat</a>
+          </Link>
+        </li>
+        <li>
+          {CaretRight}
+          <Link href="/firma">
+            <a>Firma</a>
+          </Link>
+        </li>
+        <li>
+          {CaretRight}
+          <Link href="/desprenoi">
+            <a>Despre noi</a>
+          </Link>
+        </li>
+        <li>
+          {CaretRight}
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </li>
       </ul>
     </div>
     <div className={classes.footerAbout}>
       <h4>DESPRE NOI</h4>
       <p>
-        CurataComplet este o companie cu baza in Oradea. Oferim servicii de curatenie atat companiilor cat si clientilor privati la un pret accesibil.</p>
-      <button className={classes.ReadMoreButton} type="button">
-        Citeste mai mult
-      </button>
+        CurataComplet este o companie cu baza in Oradea. Oferim servicii de
+        curatenie atat companiilor cat si clientilor privati la un pret
+        accesibil.
+      </p>
+      <Link href="/desprenoi">
+        <button className={classes.ReadMoreButton} type="button">
+          Citeste mai mult
+        </button>
+      </Link>
     </div>
     <div className={classes.footerSocial}>
       <h4>CONTACT</h4>

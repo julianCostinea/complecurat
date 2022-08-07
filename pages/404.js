@@ -6,7 +6,7 @@ const Custom404 = () => {
         <div className={classes.Content}>
             <h1>Ne pare rau.</h1>
             <p>Pagina pe care o cautati nu exista.</p>
-            <Button URLLink="./">
+            <Button URLLink="/">
                 Inapoi acasa!
             </Button>
         </div>
