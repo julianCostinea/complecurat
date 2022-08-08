@@ -42,21 +42,24 @@
   margin-top: 2rem;
 }
 
-.IntroLinks > div {
+.IntroLinks>div {
   width: 80%;
   height: auto;
   z-index: 5;
   cursor: pointer;
 }
+
 .IntroLinksPhoto {
   width: 100%;
   height: 100%;
   position: relative;
   z-index: 5;
 }
+
 .IntroLinksPhoto img {
   border-radius: 5px 5px 0px 0px;
 }
+
 .IntroLinksDetails {
   background-color: white;
   opacity: 0.8;
@@ -67,16 +70,20 @@
   border-radius: 0px 0px 5px 5px;
   box-shadow: 1px 5px 2px 0px rgba(0, 0, 0, 0.25);
 }
+
 .IntroLinksDetails h4,
 .IntroLinksDetails p {
   margin: 0;
 }
+
 .Details {
   padding: 10px;
 }
+
 .Details h1 {
   text-transform: uppercase;
 }
+
 .Details p {
   font-size: 1.1rem;
 }
@@ -93,34 +100,46 @@
   display: block;
   width: 100%;
 }
-.SatisfiedCustomersData {
-  display: inline-block;
-  margin: 0 5rem;
+
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.SatisfiedCustomersData h1:first-of-type {
-  font-weight: 900;
-  color: white;
-  margin-bottom: 0;
+.infoContainer .infoDiv {
+  margin: 1rem auto;
 }
-.SatisfiedCustomersData h1:last-of-type {
-  margin-top: 0;
-  font-weight: 300;
-  text-transform: uppercase;
+
+.infoContainer .infoDiv h3 {
+  color: var(--main-color);
 }
 
 @media (min-width: 780px) {
   .Intro h1 {
     font-size: 3rem;
   }
+
   .Details {
     max-width: 70%;
     margin: 0 auto;
   }
+
   .IntroLinks {
     margin-top: 6rem;
   }
-  .IntroLinks > div {
+
+  .IntroLinks>div {
+    width: 20%;
+  }
+
+  .infoContainer {
+    flex-direction: row;
+  }
+
+  .infoContainer .infoDiv {
+    margin: 1rem 2rem;
     width: 20%;
   }
 }
