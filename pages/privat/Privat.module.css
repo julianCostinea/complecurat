@@ -10,6 +10,10 @@
     height: 30rem;
     position: relative;
     padding-top: 5rem;
+    background: url("/PrivatPhoto.jpg");
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .Intro h1, .Intro h2 {

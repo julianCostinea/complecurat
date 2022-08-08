@@ -10,6 +10,10 @@
   height: 30rem;
   position: relative;
   padding-top: 5rem;
+  background: url("/HomePhoto.jpg");
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .Intro h1,
@@ -36,13 +40,13 @@
 .IntroLinks {
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 5rem;
   justify-content: center;
   z-index: 5;
   margin-top: 2rem;
 }
 
-.IntroLinks>div {
+.IntroLinks > div {
   width: 80%;
   height: auto;
   z-index: 5;
@@ -130,7 +134,7 @@
     margin-top: 6rem;
   }
 
-  .IntroLinks>div {
+  .IntroLinks > div {
     width: 20%;
   }
 

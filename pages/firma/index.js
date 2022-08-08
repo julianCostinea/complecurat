@@ -1,5 +1,4 @@
 import Carousel from "../../components/UI/Carousel/Carousel";
-import { FirmaPhoto } from "../../components/UI/FirmaPhoto/FirmaPhoto";
 
 import classes from "./Firma.module.css";
 
@@ -7,7 +6,6 @@ export default function Firma() {
   return (
     <div className={classes.Container}>
       <div className={classes.Intro}>
-        <FirmaPhoto />
         <h1>Curatenie Comerciala</h1>
         <h2>Creeaza un mediu de lucru sanatos</h2>
       </div>

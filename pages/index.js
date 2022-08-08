@@ -1,5 +1,4 @@
 import Carousel from "../components/UI/Carousel/Carousel";
-import { HomePhoto } from "../components/UI/HomePhoto/HomePhoto";
 import { PrivatPhoto } from "../components/UI/PrivatPhoto/PrivatPhoto";
 import { FirmaPhoto } from "../components/UI/FirmaPhoto/FirmaPhoto";
 import { HomeIcon, BuildingIcon } from "../components/UI/Icons/Icons";
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <div className={classes.Container}>
       <div className={classes.Intro}>
-        <HomePhoto />
         <h1>Curatenie Profesionala</h1>
         <div className={classes.IntroLinks}>
           <Link href={"/privat"}>

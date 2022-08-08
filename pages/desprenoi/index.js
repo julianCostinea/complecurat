@@ -1,4 +1,3 @@
-import { DespreNoiPhoto } from "../../components/UI/DespreNoiPhoto/DespreNoiPhoto";
 import * as Icons from "../../components/UI/Icons/Icons";
 import Button from "../../components/Button/Button";
 
@@ -8,7 +7,6 @@ export default function Firma() {
   return (
     <div className={classes.Container}>
       <div className={classes.Intro}>
-        <DespreNoiPhoto />
         <h1>Despre Noi</h1>
         <h2>Solutii de cea mai inalta calitate.</h2>
       </div>
