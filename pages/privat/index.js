@@ -1,13 +1,23 @@
 import Carousel from "../../components/UI/Carousel/Carousel";
 import { PrivatPhoto } from "../../components/UI/PrivatPhoto/PrivatPhoto";
+import { Parallax } from 'react-parallax';
 
 import classes from "./Privat.module.css";
+
+const image1 =
+  "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
 
 export default function Privat() {
   return (
     <div className={classes.Container}>
       <div className={classes.Intro}>
-        <PrivatPhoto />
+        <Parallax bgImage={image1} strength={500}>
+          <div>
+            <h1>Curatenie Privata</h1>
+            <h2>Iti lipseste timpul necesar lucrurilor cu adevarat importante?</h2>
+          </div>
+        </Parallax>
+        {/* <PrivatPhoto /> */}
         <h1>Curatenie Privata</h1>
         <h2>Iti lipseste timpul necesar lucrurilor cu adevarat importante?</h2>
       </div>
