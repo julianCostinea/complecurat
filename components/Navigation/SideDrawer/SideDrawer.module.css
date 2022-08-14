@@ -1,7 +1,7 @@
 .SideDrawer {
   position: fixed;
-  width: 280px;
-  height: 100%;
+  width: 100%;
+  height: auto;
   left: 0;
   top: 0;
   z-index: 699;
@@ -13,7 +13,7 @@
 .SideDrawer.Open {
   box-shadow: 3px 0px 5px 0px #2e2e2e;
 }
-.Footer {
+/* .Footer {
   position: fixed;
   bottom: 0%;
   padding: 0.5rem;
@@ -40,7 +40,7 @@
 }
 .Footer ul li:first-of-type svg path, .Footer ul li:last-of-type svg path{
   fill: #333333;
-}
+} */
 
 @media (min-width: 750px) {
   .SideDrawer {
@@ -55,11 +55,11 @@
 }
 
 .Open {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .Close {
-  transform: translateX(-100%);
+  transform: translateY(-100%);
 }
 
 .Logo {
