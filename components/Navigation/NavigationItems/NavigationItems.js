@@ -13,7 +13,7 @@ const NavigationItems = () => {
       <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/">{HomeIcon} Acasa</NavigationItem>
       <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/privat">{PersonIcon} Privat</NavigationItem>
       <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/firma">{BuildingIcon} Firma</NavigationItem>
-      <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/desprenoi">{InfoIcon} Despre noi</NavigationItem>
+      <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/desprenoi">{InfoIcon} Despre&nbsp;Noi</NavigationItem>
       <NavigationItem clicked={sideDrawerCtx.hideSideDrawer} link="/contact">{PhoneIcon} Contact</NavigationItem>
     </ul>
   );
