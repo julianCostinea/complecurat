@@ -76,6 +76,9 @@
 .footerSocial ul li svg {
   margin-right: 5px;
 }
+.footerSocial ul li:nth-of-type(2) svg {
+  fill: white;
+}
 
 .footerSocial h4, .footerMenu h4, .footerAbout h4 {
   margin: 0;

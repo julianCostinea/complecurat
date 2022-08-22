@@ -1,7 +1,7 @@
 import Carousel from "../components/UI/Carousel/Carousel";
 import { PrivatPhoto } from "../components/UI/PrivatPhoto/PrivatPhoto";
 import { FirmaPhoto } from "../components/UI/FirmaPhoto/FirmaPhoto";
-import { HomeIcon, BuildingIcon } from "../components/UI/Icons/Icons";
+import { PersonIcon, BuildingIcon } from "../components/UI/Icons/Icons";
 import Link from "next/link";
 import ContactFrom from "../components/ContactForm/ContactForm";
 
@@ -19,7 +19,7 @@ export default function Home() {
                 <PrivatPhoto />
               </div>
               <div className={classes.IntroLinksDetails}>
-                <div>{HomeIcon}</div>
+                <div>{PersonIcon}</div>
                 <div>
                   <h4>Privat</h4>
                   <p>Ajutam in apartamente si case de toate dimensiunile</p>

@@ -17,8 +17,19 @@
   font-weight: bold;
 }
 
+.NavigationItem a svg{
+  transition: fill ease-in 0.3s, stroke ease-in 0.3s;
+  fill: var(--secondary-color);
+  stroke: var(--secondary-color);
+}
+
 .NavigationItem a:hover, .NavigationItem a.active{
   color: white;
+}
+
+.NavigationItem a:hover svg, .NavigationItem a.active svg{
+  fill: white;
+  stroke: white;
 }
 
 /* .openPreview {

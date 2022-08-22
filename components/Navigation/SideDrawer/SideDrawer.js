@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import SideDrawerContext from "../../../store/SideDrawerContext";
 import NavigationItems from "../NavigationItems/NavigationItems";
 import DrawerToggle from "../DrawerToggle/DrawerToggle";
-import { MailIcon, PhoneIcon, PinIcon } from "../../UI/Icons/Icons";
 
 import classes from "./SideDrawer.module.css";
 
