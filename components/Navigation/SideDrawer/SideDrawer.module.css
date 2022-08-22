@@ -42,12 +42,6 @@
   fill: #333333;
 } */
 
-@media (min-width: 750px) {
-  .SideDrawer {
-    width: 450px;
-  }
-}
-
 @media (min-width: 780px) {
   .SideDrawer {
     display: none;
