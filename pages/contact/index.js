@@ -9,7 +9,7 @@ export default function Contact() {
             <div className={classes.infoContainer}>
                 <div className={classes.infoDiv}>
                     {Icons.PinIcon}
-                    <h3>CompletCurat</h3>
+                    <h3>CompleCurat</h3>
                     <p>Str. Olimpiadei nr 6, Oradea</p>
                 </div>
                 <div className={classes.infoDiv}>
@@ -20,7 +20,7 @@ export default function Contact() {
                 <div className={classes.infoDiv}>
                     {Icons.MailIcon}
                     <h3>E-mail</h3>
-                    <p>office@completcurat.ro</p>
+                    <p>office@complecurat.ro</p>
                 </div>
                 <div className={classes.infoDiv}>
                     {Icons.ClockIcon}

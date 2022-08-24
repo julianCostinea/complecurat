@@ -25,7 +25,7 @@ export default function Firma() {
           urmare, pentru angajati fericiti si eficienti.
         </p>
         <p>
-          La CompletCurat, responsabilitatea este una dintre valorile noastre de
+          La CompleCurat, responsabilitatea este una dintre valorile noastre de
           baza. Responsabilitate in legatura cu faptul ca suntem atenti si
           respectuosi cu birourile pe care le curatam - dar la fel de
           responsabili in raport cu faptul ca mentinem un climat interior
@@ -66,7 +66,7 @@ export default function Firma() {
           multumiti de curatenie - de aceea increderea si deschiderea sunt
           foarte importante pentru noi. Daca aveti nevoie de noi sa ne ocupam de
           curatenia in compania dumneavoastra, putem fi contactati la telefon
-          0794.312.758 sau trimiteti un e-mail la office@completcurat.ro.
+          0794.312.758 sau trimiteti un e-mail la office@complecurat.ro.
         </p>
       </div>
       <div className={classes.Details}>

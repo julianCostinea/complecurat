@@ -44,7 +44,7 @@ const Footer = () => (
     <div className={classes.footerAbout}>
       <h4>DESPRE NOI</h4>
       <p>
-        CurataComplet este o companie cu baza in Oradea. Oferim servicii de
+        CompleCurat este o companie cu baza in Oradea. Oferim servicii de
         curatenie atat companiilor cat si clientilor privati la un pret
         accesibil.
       </p>
@@ -59,7 +59,7 @@ const Footer = () => (
       <ul>
         <li>{PinIcon}Str. Olimpiadei nr 6, Oradea</li>
         <li>{PhoneIcon}0794.312.758 </li>
-        <li>{MailIcon}office@completcurat.ro </li>
+        <li>{MailIcon}office@complecurat.ro </li>
         <li>{ClockIcon}Luni – Vineri : 8.00 – 17.00 </li>
         <li>{ClockIcon}Weekend: Inchis </li>
       </ul>

@@ -85,7 +85,7 @@ const ContactForm = (props) => {
             }
           },
         ).catch((err) => {
-          setErrorHeader("Ceva neasteptat sa intamplat. Te rugam sa ne contactezi la office@completcurat.ro")
+          setErrorHeader("Ceva neasteptat sa intamplat. Te rugam sa ne contactezi la office@complecurat.ro")
           setIsLoading(false);
         });
     }

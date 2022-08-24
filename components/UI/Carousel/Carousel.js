@@ -21,7 +21,7 @@ export default function Carousel() {
       <SwiperSlide>
         <p className={classes.referralParagraph}>
           <i>
-            Lucram cu mai multi angajati de curatenie de la CompletCurat spre mare satisfactie. <br/>
+            Lucram cu mai multi angajati de curatenie de la CompleCurat spre mare satisfactie. <br/>
             Intotdeauna fac o treaba buna si ne putem baza pe ei sa fie mereu curat in incaperi.
           </i>
         </p>
@@ -31,7 +31,7 @@ export default function Carousel() {
           <i>
           Contribuie foarte mult la experienta si atmosfera pozitiva in randul rezidentilor atunci <br/>
           cand curatenia in cele peste 150 de intrari si 20 de spalatorii este in regula. <br/>
-          De aceea suntem foarte multumiti de CompletCurat ca furnizor de servicii.
+          De aceea suntem foarte multumiti de CompleCurat ca furnizor de servicii.
           </i>
         </p>
       </SwiperSlide>

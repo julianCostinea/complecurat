@@ -24,7 +24,7 @@ const SideDrawer = () => {
         {/* <div className={classes.Footer}>
           <ul>
             <li>{PhoneIcon}0794.482.115 </li>
-            <li>{MailIcon}office@completcurat.ro </li>
+            <li>{MailIcon}office@complecurat.ro </li>
             <li>{PinIcon}Str. Campul Pipera 127 ap. 4 Bucuresti </li>
           </ul>
         </div> */}

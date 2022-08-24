@@ -15,7 +15,7 @@ export default function Privat() {
           dumneavoastra
         </h1>
         <p>
-          Sunteti pe maini complet sigure daca alegeti CompletCurat pentru a va
+          Sunteti pe maini complet sigure daca alegeti CompleCurat pentru a va
           mentine casa curata si prezentabila. Avem o vasta experienta cu
           ajutorul curateniei in case private si avem in prezent peste 1.000 de
           clienti fideli. Stim ca mutarea in casele private este o munca foarte
@@ -50,7 +50,7 @@ export default function Privat() {
           Servicii ecologice si <span>fara</span> perioada minima contractuala
         </h1>
         <p>
-          Sunteti pe maini complet sigure daca alegeti CompletCurat pentru a va
+          Sunteti pe maini complet sigure daca alegeti CompleCurat pentru a va
           mentine casa curata si prezentabila. Avem o vasta experienta cu
           ajutorul curateniei in case private si avem in prezent peste 1.000 de
           clienti fideli. Stim ca mutarea in casele private este o munca foarte

@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/logoIcon.png" />
-        <meta property="og:site_name" content="Spot My Next" />
+        <meta property="og:site_name" content="CompleCurat" />
         <meta property="og:type" content="website" />
       </Head>
       <Layout>
