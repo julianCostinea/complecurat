@@ -9,7 +9,7 @@
   cursor: pointer;
   position: fixed;
   top: 3vh;
-  left: 10vw;
+  right: 10vw;
   z-index: 700;
 }
 
